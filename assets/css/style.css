@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+ 
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #ccc;
+    width: 100%;
+    margin-bottom: 40px; 
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 90px;
+    float: left;
+    padding: 35px;
+    margin: 0px 0px 0px 160px;
+    color: #ffffff;
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0px 240px 0px 0px;
+    padding: 30px 0px;
+    overflow: hidden;
+    float: right;
+    
+    
+}
+
+li {
+    display: inline;
+    
+}
+
+li a {
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: darkgray;
+    
+}
+.divider {
+    font-weight: 100;
+}
+
+
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;  
+   
+}
+body {
+    clear: both;
+    overflow: auto;
+    background-image:url("../images/giftly.png"); 
+    margin: 0px auto;
+
+}
+
+#entire_content {
+    
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;  
+    
+    clear: both;
+    overflow: auto; 
+    margin: 0px 240px 0px 160px;
+    
+}
+
+#main-col {
+    width: 650px;
+    background: #ffffff; 
+    float:left;
+    padding: 40px 35px 39px 30px;    
+
+}
+ hr {
+     padding:0px;    
+     color: #dddddd;
+     background-color: #dddddd;
+     display: block;
+   
+ }
+
+ .hr_1 {
+
+    height: 3px;
+    margin: 30px 0px;
+
+ }
+ .hr_2 {
+    margin: 30px 40px 30px 0px;
+    height: 2px;
+ }
+
+#bioimage {
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+
+}
+
+p {
+    line-height: 1.6;
+}
+
+#side_bar {  
+    width: 270px;
+    height: 200px;
+    background: #ffffff;
+    float:right; 
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+#linkedin {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+#stackoverflow{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin:0px 12px 0px 12px;
+}
+#github{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+h3 {
+    text-align: center;
+    color: #eeeeee;
+    font-size: 12px;
+    font-weight: normal;
+
+
+}
+
+
+footer {
+    background: #666666;
+    padding: 20px;
+    clear: both;
+    overflow: auto;
+    margin: 40px 0px 0px 0px;
+    border-width: 10px 0px 0px 0px ;
+    border-style: solid;
+    border-top-color: #4aaaa5;
+}
